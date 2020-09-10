@@ -19,18 +19,18 @@ The testing tools and examples included in this repo are:
 
 #### [Terraform-Complaince](https://github.com/eerkunt/terraform-compliance)
 
-    Terraform-Compliance is a python based tool that makes use of Gherkin syntax for its tests. The tool runs these checks against Terraform plan files (in JSON format) and is designed for negative testing.
+  >Terraform-Compliance is a python based tool that makes use of Gherkin syntax for its tests. The tool runs these checks against Terraform plan files (in JSON format) and is designed for negative testing.
 
 
 ### [Terratest](https://github.com/gruntwork-io/terratest)
   
-    Terratest is a Golang tool where tests are also written in Golang files. It is designed to build and destroy your code to prove it works and perform tests against the real world environment to ensure everything is how you want it to look.
+  >Terratest is a Golang tool where tests are also written in Golang files. It is designed to build and destroy your code to prove it works and perform tests against the real world environment to ensure everything is how you want it to look.
   
 
 ### [Inspec](https://github.com/inspec/inspec-aws)
   
-    Inspec is a Ruby based tool which makes use of Ruby syntax for test files. It is designed to test real world environments and can output tests results for history
-  
+  >Inspec is a Ruby based tool which makes use of Ruby syntax for test files. It is designed to test real world environments and can output tests results for history
+
 
 As I've said already, these 3 tools can be used in combination to provide testing and confidence throughout the CI/CD pipeline. 
 
