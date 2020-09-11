@@ -52,7 +52,7 @@ resource "aws_security_group" "security_group" {
   name        = join("-", [var.environment, "testing", "security-group"])
   description = "A Security Group for my testing instance"
 
-  # Inbound HTTP from Kainos
+  # Inbound HTTP
   ingress {
     from_port   = var.port
     to_port     = var.port
